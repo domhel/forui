@@ -121,7 +121,6 @@ class FButton extends StatelessWidget {
     };
 
     final enabled = onPress != null || onLongPress != null;
-
     return FTappable.animated(
       autofocus: autofocus,
       focusNode: focusNode,
